@@ -33,3 +33,4 @@ npm start
 ![Screenshot](https://github.com/sunnut/react-easy-start/blob/master/images/ex2.png?raw=true "dashboard")
 #### Dashboard with sidebar collapsed
 ![Screenshot](https://github.com/sunnut/react-easy-start/blob/master/images/ex3.png?raw=true "dashboard")
+# react-easy-blog

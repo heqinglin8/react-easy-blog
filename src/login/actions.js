@@ -12,7 +12,7 @@ export const login = (formVal, history) => {
       if (response) {
         LocalStorage.put('TA-username', formVal.userName);
         // 没有发生异常，跳转至主页
-        history.push('/home/overview');
+        history.push('/admin/overview');
       }
     });
   };

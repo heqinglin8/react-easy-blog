@@ -7,7 +7,7 @@ import styles from './header.module.css';
 const menu = (
   <Menu>
     <Menu.Item key="1">
-      <Link to="/home/setting">
+      <Link to="/admin/setting">
         <Icon type="setting" />&nbsp;偏好设置
       </Link>
     </Menu.Item>
