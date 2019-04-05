@@ -4,7 +4,6 @@ import { view as Header } from '../components/header';
 import { view as Sidebar } from '../components/sidebar';
 import { view as Overview } from './overview';
 import { view as Topo } from './topo';
-import Home from './Home';
 import styles from './home.module.css';
 
 const HomePage = () => {
@@ -25,7 +24,7 @@ const HomePage = () => {
           <Header collapsed={collapsed} setCollapsed={setCollapsed} />
         </div>
         <div className={`${styles.content} ant-layout-content`}>
-          <Route path="/admin" component={Home} exact/>
+          <Route path="/admin" component={Overview} exact/>
           <Route path="/admin/overview" component={Overview} />
           <Route path="/admin/topo" component={Topo} />
         </div>

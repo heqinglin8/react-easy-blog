@@ -11,3 +11,54 @@
   padding-top: 0;
   margin: 24px;
 }
+
+.home_slide_bar{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.home_slide_bar .item{
+  display: 'flex';
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #eeeeee;
+}
+
+.title_layout {
+  background-color: #eeeeee;
+  padding-left:20px;
+  padding-top:10px;
+  padding-bottom:10px
+}
+
+.guide_main {
+  background-color: white;
+  flex: 1;
+  border: 1px solid #cccccc
+}
+
+.guide_main .row_layout{
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  align-items: center;
+}
+
+.input_item {
+  display: flex;
+  height: 40px;
+}
+.text_input {
+  width: 160%;
+  margin-left: 6%
+}
+
+.line {
+  background-color: #cccccc;
+  flex: 1;
+  height: 1px;
+}
+
